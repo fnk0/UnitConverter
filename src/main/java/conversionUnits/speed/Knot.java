@@ -10,9 +10,9 @@ import conversionUnits.UnitConstants;
  * @version 1.0
  * @since 8/24/14
  */
-public class Knots extends ConversionUnit {
+public class Knot extends ConversionUnit {
 
-    public Knots(double value) {
+    public Knot(double value) {
         super(value);
     }
 
