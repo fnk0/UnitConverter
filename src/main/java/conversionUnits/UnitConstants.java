@@ -26,12 +26,13 @@ public class UnitConstants {
      */
     public static final int SPEED = 10;
     public static final int FEET_SECOND = 11;
-    public static final int MILES_MINUTE = 12;
-    public static final int MILES_HOUR = 13;
-    public static final int METER_SECOND = 14;
-    public static final int KILOMETER_MINUTE = 15;
-    public static final int KILOMETER_HOUR = 16;
-    public static final int KNOTS = 17;
+    public static final int FEET_MINUTE = 12;
+    public static final int MILES_MINUTE = 13;
+    public static final int MILES_HOUR = 14;
+    public static final int METER_SECOND = 15;
+    public static final int KILOMETER_MINUTE = 16;
+    public static final int KILOMETER_HOUR = 17;
+    public static final int KNOTS = 18;
 
     /**
      * LENGTH

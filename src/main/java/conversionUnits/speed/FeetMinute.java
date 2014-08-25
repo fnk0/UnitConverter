@@ -10,9 +10,13 @@ import conversionUnits.UnitConstants;
  * @version 1.0
  * @since 8/24/14
  */
-public class FeetSec extends ConversionUnit {
+public class FeetMinute extends ConversionUnit {
 
-    public FeetSec(double value) {
+    /**
+     *
+     * @param value
+     */
+    public FeetMinute(double value) {
         super(value);
     }
 
@@ -20,28 +24,28 @@ public class FeetSec extends ConversionUnit {
     public double convertTo(int type) {
         switch (type) {
             case UnitConstants.FEET_SECOND:
-                return getValue();
+                return getValue() * 0.0166666;
             case UnitConstants.FEET_MINUTE:
-                return getValue() * 60;
+                return getValue();
             case UnitConstants.MILES_MINUTE:
-                return getValue() * 0.0113636;
+                return getValue() * 0.0001893;
             case UnitConstants.MILES_HOUR:
-                return getValue() * 0.681812;
+                return getValue() * 0.0113636;
             case UnitConstants.METER_SECOND:
-                return getValue() * 0.3048;
+                return getValue() * 0.00508;
             case UnitConstants.KILOMETER_MINUTE:
-                return getValue() * 0.018288;
+                return getValue() * 0.0003048;
             case UnitConstants.KILOMETER_HOUR:
-                return getValue() * 1.09728;
+                return getValue() * 0.018288;
             case UnitConstants.KNOTS:
-                return getValue() * 0.5924838;
+                return getValue() * 0.0098747;
         }
         return 0;
     }
 
     @Override
     public int getType() {
-        return UnitConstants.FEET_SECOND;
+        return UnitConstants.FEET_MINUTE;
     }
 
     @Override

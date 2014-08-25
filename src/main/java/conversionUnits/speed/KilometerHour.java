@@ -10,38 +10,38 @@ import conversionUnits.UnitConstants;
  * @version 1.0
  * @since 8/24/14
  */
-public class FeetSec extends ConversionUnit {
+public class KilometerHour extends ConversionUnit {
 
-    public FeetSec(double value) {
+    public KilometerHour(double value) {
         super(value);
     }
 
     @Override
     public double convertTo(int type) {
-        switch (type) {
+         switch (type) {
             case UnitConstants.FEET_SECOND:
-                return getValue();
+                return getValue() * 0.9113444;
             case UnitConstants.FEET_MINUTE:
-                return getValue() * 60;
+                return getValue() * 54.68066;
             case UnitConstants.MILES_MINUTE:
-                return getValue() * 0.0113636;
+                return getValue() * 0.0103561;
             case UnitConstants.MILES_HOUR:
-                return getValue() * 0.681812;
+                return getValue() * 0.6213712;
             case UnitConstants.METER_SECOND:
-                return getValue() * 0.3048;
+                return getValue() * 0.277778;
             case UnitConstants.KILOMETER_MINUTE:
-                return getValue() * 0.018288;
+                return getValue() * 0.0166666;
             case UnitConstants.KILOMETER_HOUR:
-                return getValue() * 1.09728;
+                return getValue();
             case UnitConstants.KNOTS:
-                return getValue() * 0.5924838;
+                return getValue() * 0.5399568;
         }
         return 0;
     }
 
     @Override
     public int getType() {
-        return UnitConstants.FEET_SECOND;
+        return UnitConstants.KILOMETER_HOUR;
     }
 
     @Override
