@@ -7,19 +7,13 @@ package conversionUnits;
  * @version 1.0
  * @since 8/24/14.
  */
-public class DefaultUnit {
+public interface DefaultUnit {
 
-    private double value;
 
-    public DefaultUnit(double value) {
-        this.value = value;
-    }
+    public double convertTo(int type);
 
-    public double getValue() {
-        return value;
-    }
+    public int getType();
 
-    public void setValue(double value) {
-        this.value = value;
-    }
+    public int getGroup();
+
 }

@@ -1,7 +1,6 @@
 package conversionUnits.mass;
 
 import conversionUnits.ConversionUnit;
-import conversionUnits.DefaultUnit;
 import conversionUnits.UnitConstants;
 
 /**
@@ -11,7 +10,7 @@ import conversionUnits.UnitConstants;
  * @version 1.0
  * @since 8/24/14.
  */
-public class Pound extends DefaultUnit implements ConversionUnit {
+public class Pound extends ConversionUnit {
 
     public Pound(double value) {
         super(value);

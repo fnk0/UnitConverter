@@ -1,6 +1,4 @@
-package conversionUnits.mass;
-
-import conversionUnits.UnitConstants;
+package conversionUnits;
 
 /**
  * Created by <a href="mailto:marcusandreog@gmail.com">Marcus Gabilheri</a>
@@ -10,6 +8,16 @@ import conversionUnits.UnitConstants;
  * @since 8/24/14
  */
 public class ArrayConstants {
+
+    public static final int[] UNIT_TYPES = {
+            UnitConstants.MASS,
+            UnitConstants.SPEED,
+            UnitConstants.LENGTH,
+            UnitConstants.TEMPERATURE,
+            UnitConstants.VOLUME,
+            UnitConstants.AREA,
+            UnitConstants.DATA
+    };
 
 
     public static final int[] MASS_UNITS = {
