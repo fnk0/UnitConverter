@@ -42,4 +42,9 @@ public class Pound extends DefaultUnit implements ConversionUnit {
     public int getType() {
         return UnitConstants.POUND;
     }
+
+    @Override
+    public int getGroup() {
+        return UnitConstants.MASS;
+    }
 }

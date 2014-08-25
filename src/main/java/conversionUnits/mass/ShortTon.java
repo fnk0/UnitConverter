@@ -42,4 +42,9 @@ public class ShortTon extends DefaultUnit implements ConversionUnit {
     public int getType() {
         return UnitConstants.SHORT_TON;
     }
+
+    @Override
+    public int getGroup() {
+        return UnitConstants.MASS;
+    }
 }

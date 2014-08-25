@@ -14,4 +14,6 @@ public interface ConversionUnit {
 
     public int getType();
 
+    public int getGroup();
+
 }

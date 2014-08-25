@@ -43,4 +43,9 @@ public class Ounce extends DefaultUnit implements ConversionUnit {
     public int getType() {
         return UnitConstants.OUNCE;
     }
+
+    @Override
+    public int getGroup() {
+        return UnitConstants.MASS;
+    }
 }

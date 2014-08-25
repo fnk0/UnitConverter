@@ -42,4 +42,9 @@ public class MiliGrams extends DefaultUnit implements ConversionUnit {
     public int getType() {
         return UnitConstants.MILIGRAMS;
     }
+
+    @Override
+    public int getGroup() {
+        return UnitConstants.MASS;
+    }
 }

@@ -42,4 +42,9 @@ public class LongTon extends DefaultUnit implements ConversionUnit {
     public int getType() {
         return UnitConstants.LONG_TON;
     }
+
+    @Override
+    public int getGroup() {
+        return UnitConstants.MASS;
+    }
 }
