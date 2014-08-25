@@ -7,7 +7,7 @@ package conversionUnits;
  * @version 1.0
  * @since 8/24/14.
  */
-public class ConversionUnit implements DefaultUnit {
+public abstract class ConversionUnit {
 
     private double value;
 
@@ -23,18 +23,9 @@ public class ConversionUnit implements DefaultUnit {
         this.value = value;
     }
 
-    @Override
-    public double convertTo(int type) {
-        return 0;
-    }
+    public abstract double convertTo(int type);
 
-    @Override
-    public int getType() {
-        return 0;
-    }
+    public abstract int getType();
 
-    @Override
-    public int getGroup() {
-        return 0;
-    }
+    public abstract int getGroup();
 }
