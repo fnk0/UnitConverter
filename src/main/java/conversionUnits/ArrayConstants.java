@@ -30,4 +30,15 @@ public class ArrayConstants {
             UnitConstants.KILOGRAMS
     };
 
+    public static final int[] SPEED_UNITS = {
+            UnitConstants.FEET_SECOND,
+            UnitConstants.FEET_MINUTE,
+            UnitConstants.MILES_MINUTE,
+            UnitConstants.MILES_HOUR,
+            UnitConstants.METER_SECOND,
+            UnitConstants.KILOMETER_MINUTE,
+            UnitConstants.KILOMETER_HOUR,
+            UnitConstants.KNOTS
+    };
+
 }
