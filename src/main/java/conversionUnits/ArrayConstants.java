@@ -41,4 +41,11 @@ public class ArrayConstants {
             UnitConstants.KNOTS
     };
 
+    public static final int[] TEMPERATURE_UNITS = {
+            UnitConstants.FAHRENHEIT,
+            UnitConstants.CELSIUS,
+            UnitConstants.KELVIN,
+            UnitConstants.RANKINE
+    };
+
 }
